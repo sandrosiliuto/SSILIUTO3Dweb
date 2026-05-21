@@ -1,6 +1,0 @@
-{
-  "name": "Sandro Siliuto Portfolio",
-  "description": "Portfolio de arte y tecnología de Sandro Siliuto. Especializado en el nexo entre el mundo físico y digital (#DigitalAlchemy).",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}

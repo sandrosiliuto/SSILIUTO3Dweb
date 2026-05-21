@@ -1,42 +1,29 @@
-﻿{
-    "name":  "ssiliuto3dweb",
-    "private":  true,
-    "version":  "0.0.0",
-    "type":  "module",
-    "scripts":  {
-                    "dev":  "vite --port=3000 --host=0.0.0.0",
-                    "build":  "vite build",
-                    "preview":  "vite preview",
-                    "clean":  "rm -rf dist server.js",
-                    "lint":  "tsc --noEmit"
-                },
-    "dependencies":  {
-                         "@google/genai":  "^1.29.0",
-                         "@tailwindcss/vite":  "^4.1.14",
-                         "@vitejs/plugin-react":  "^5.0.4",
-                         "lucide-react":  "^0.546.0",
-                         "react":  "^19.0.1",
-                         "react-dom":  "^19.0.1",
-                         "vite":  "^6.2.3",
-                         "express":  "^4.21.2",
-                         "dotenv":  "^17.2.3",
-                         "motion":  "^12.23.24",
-                         "three":  "^0.164.0",
-                         "@react-three/fiber":  "^8.16.8",
-                         "@react-three/drei":  "^9.105.6",
-                         "@react-three/postprocessing":  "^2.16.4",
-                         "gsap":  "^3.12.5",
-                         "postprocessing":  "^6.36.4"
-                     },
-    "devDependencies":  {
-                            "@types/node":  "^22.14.0",
-                            "autoprefixer":  "^10.4.21",
-                            "esbuild":  "^0.25.0",
-                            "tailwindcss":  "^4.1.14",
-                            "tsx":  "^4.21.0",
-                            "typescript":  "~5.8.2",
-                            "vite":  "^6.2.3",
-                            "@types/express":  "^4.17.21",
-                            "@types/three":  "^0.164.0"
-                        }
+{
+  "name": "ssiliuto3dweb",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sandro Siliuto Design - Digital Alchemy Portfolio (3D-first)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.114.0",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/postprocessing": "^2.16.3",
+    "gsap": "^3.12.5",
+    "leva": "^0.9.35",
+    "postprocessing": "^6.36.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.169.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.10"
+  }
 }
