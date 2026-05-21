@@ -1,26 +1,20 @@
-﻿# SSILIUTO3Dweb
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-Proyecto 3D interactivo con Next.js 14, React Three Fiber y Motion.
+# Run and deploy your AI Studio app
 
-## Deploy en Vercel
+This contains everything you need to run your app locally.
 
-Importa este repo directamente. Vercel detecta Next.js automaticamente.
+View your app in AI Studio: https://ai.studio/apps/4c1fba0b-2824-4646-b4c3-ae54e9e554a4
 
-- Framework: Next.js
-- Build Command: next build
-- Output: .next
+## Run Locally
 
-## Desarrollo local
+**Prerequisites:**  Node.js
 
-```bash
-npm install
-npm run dev
-```
 
-## Stack
-
-- Next.js 14 (App Router)
-- React 18
-- Three.js + React Three Fiber + drei
-- Motion (Framer Motion v12)
-- Tailwind CSS 3
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
