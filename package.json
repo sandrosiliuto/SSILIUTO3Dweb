@@ -1,16 +1,30 @@
 {
-  "name": "instala-esta-skill-httpsgithub",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "ssiliuto3dweb",
+  "version": "0.2.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "motion": "^12.39.0"
+    "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.16.8",
+    "motion": "^12.39.0",
+    "next": "^14.2.35",
+    "react": "^18",
+    "react-dom": "^18",
+    "three": "^0.164.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/three": "^0.164.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }

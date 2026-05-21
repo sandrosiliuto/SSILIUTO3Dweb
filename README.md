@@ -1,36 +1,26 @@
-# SSILIUTO3Dweb
+﻿# SSILIUTO3Dweb
 
-3D web portfolio project.
+Proyecto 3D interactivo con Next.js 14, React Three Fiber y Motion.
 
-Repositorio con:
+## Deploy en Vercel
 
-- `becube3D/`: proyecto principal Next.js listo para desplegar en Vercel
-- `deliverables/NucleoLineasVivas/`: componente 3D adicional reutilizable para integrar en otros proyectos
+Importa este repo directamente. Vercel detecta Next.js automaticamente.
 
-## Proyecto principal
+- Framework: Next.js
+- Build Command: next build
+- Output: .next
 
-El sitio listo para desplegar está en `becube3D/`.
-
-### Desarrollo local
+## Desarrollo local
 
 ```bash
-cd becube3D
 npm install
 npm run dev
 ```
 
-### Deploy en Vercel
+## Stack
 
-Al importar este repositorio en Vercel, configura:
-
-- **Framework Preset**: Next.js
-- **Root Directory**: `becube3D`
-
-## Entregables extra
-
-En `deliverables/NucleoLineasVivas/` está el componente 3D modular con:
-
-- React Three Fiber
-- GSAP ScrollTrigger
-- cursor custom
-- bloom y estética tech noir
+- Next.js 14 (App Router)
+- React 18
+- Three.js + React Three Fiber + drei
+- Motion (Framer Motion v12)
+- Tailwind CSS 3
